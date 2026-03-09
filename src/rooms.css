@@ -1,0 +1,76 @@
+/* ============================================================
+   ROOMS PAGE STYLES
+   ============================================================ */
+
+/* ── Amenities Grid ──────────────────────────────────────── */
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.amenity-block {
+  padding: 2rem 1.75rem 2.25rem;
+  background: var(--white);
+  border: 1px solid var(--sky-100);
+  position: relative;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+
+.amenity-block:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.amenity-block-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--blue-400);
+  margin-bottom: 1.25rem;
+}
+
+.amenity-block-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.amenity-block h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  color: var(--blue-700);
+  margin-bottom: .6rem;
+}
+
+.amenity-block p {
+  font-size: .88rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* ── Rooms CTA ────────────────────────────────────────────── */
+.rooms-cta {
+  background: linear-gradient(155deg, var(--navy) 0%, var(--blue-600) 60%, var(--blue-400) 100%);
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.rooms-cta-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rooms-cta p {
+  color: rgba(255,255,255,.55);
+  font-style: italic;
+  margin-top: .75rem;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .amenities-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .amenities-grid { grid-template-columns: 1fr; }
+}
