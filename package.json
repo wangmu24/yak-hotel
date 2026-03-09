@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "echo 'Deployed via Cloudflare Pages Git integration'"
+    "deploy": "npx wrangler deploy"
   },
   "devDependencies": {
     "vite": "^5.0.0"
