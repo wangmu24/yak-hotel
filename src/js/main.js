@@ -6,10 +6,9 @@ initNav()
 const heroBg = document.getElementById('heroBg')
 const heroContent = document.getElementById('heroContent')
 
-// Set hero background from Wix or fallback
 const heroImages = [
-  'https://static.wixstatic.com/media/32075a_ac0789c16f6b4ffdbcea59cccd217d66~mv2.jpeg/v1/fill/w_1920,h_1200,al_c,q_85/32075a_ac0789c16f6b4ffdbcea59cccd217d66~mv2.jpeg',
-  'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1920&q=80'
+  'images/namche_panaroma.jpg',
+  'images/stupa.jpg'
 ]
 
 let imgLoaded = false

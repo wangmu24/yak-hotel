@@ -247,7 +247,7 @@ h1, h2, h3, h4 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://static.wixstatic.com/media/32075a_ac0789c16f6b4ffdbcea59cccd217d66~mv2.jpeg/v1/fill/w_1920,h_1200,al_c,q_85/32075a_ac0789c16f6b4ffdbcea59cccd217d66~mv2.jpeg');
+  background-image: url('images/namche_panaroma.jpg');
   background-size: cover;
   background-position: center 40%;
   transform: scale(1.06);
